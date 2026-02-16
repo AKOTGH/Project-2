@@ -1,2 +1,2 @@
-# Project-2
-LIS 500 Project 2
+# project2
+This repository is for project 2.
