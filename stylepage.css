@@ -27,16 +27,18 @@ nav a {
     margin: 0 1rem;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease; /* Adds the smooth hover transition requested in feedback */
 }
 
 /* Active page highlight */
 nav a.active {
     text-decoration: underline;
+    color: #3498db; 
 }
 
 /* Hover interaction */
 nav a:hover {
-    color: #ecf0f1;
+    color: #3498db;
 }
 
 /* Main layout */
@@ -49,6 +51,19 @@ main {
 /* Section spacing */
 section {
     margin-bottom: 3rem;
+    background: white; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Fix for the missing image class */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin: 1rem auto;
 }
 
 /* Footer styling */
@@ -58,4 +73,3 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-
