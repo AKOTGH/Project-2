@@ -51,12 +51,13 @@ section {
     margin-bottom: 3rem;
 }
 
-/* Responsive images */
-.responsive-img {
+/* Section images (Implicit Bias & Intersectionality) */
+.section-image {
     max-width: 100%;
     height: auto;
     margin: 1rem 0;
-    border-radius: 4px;
+    border-radius: 8px;
+    display: block;
 }
 
 /* Footer styling */
