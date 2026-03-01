@@ -51,15 +51,6 @@ section {
     margin-bottom: 3rem;
 }
 
-/* Section images (Implicit Bias & Intersectionality) */
-.section-image {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
-    border-radius: 8px;
-    display: block;
-}
-
 /* Footer styling */
 footer {
     background-color: #2c3e50;
@@ -67,3 +58,4 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
