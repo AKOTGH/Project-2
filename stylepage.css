@@ -33,12 +33,12 @@ nav a {
 /* Active page highlight */
 nav a.active {
     text-decoration: underline;
-    color: #3498db; 
+    color: #85c1e9; 
 }
 
 /* Hover interaction */
 nav a:hover {
-    color: #3498db;
+    color: #85c1e9;
 }
 
 /* Main layout */
