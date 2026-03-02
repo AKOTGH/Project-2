@@ -73,3 +73,21 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+/* Profile Layout for About Page */
+.profile-layout {
+    display: flex;
+    gap: 2rem; 
+    align-items: flex-start; 
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 8px; 
+    flex-shrink: 0; 
+}
+
+@media (max-width: 600px) {
+    .profile-layout {
+        flex-direction: column;
+    }
+}
